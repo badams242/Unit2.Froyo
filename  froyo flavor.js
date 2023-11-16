@@ -1,7 +1,5 @@
-const userInput = prompt(vanilla, vanilla, vanilla, strawberry, coffee, coffee)
-const flavorsArray = userInput.split['vanilla', 'strawberry', 'coffee']
-const flavorCount = { vanilla: 3, strawberry: 1, coffee: 2 }
-for (const flavor of flavorsArray) { flavorCount[flavor] = (flavorCount[flavor] || 0) + 1 }
+const userInput = prompt('Please enter your favorite froyo flavor: vanilla, strawberry, or coffee')
+const flavorsArray = userInput.split(['vanilla', 'strawberry', 'coffee'])
 const flavorCount = flavorsArray.reduce((flavorCount, flavor) => {
     flavorCount[flavor] = (flavorCount[flavor] || 0) + 1
     return flavorCount
