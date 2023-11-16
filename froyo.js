@@ -1,6 +1,7 @@
+function trackfroyoflavors() {
 const userInput = prompt("Pick a flavor of froyo, vanilla, strawberry,coffee")
-const flavors = (vanilla, strawberry, coffee);
-const flavorsArray = userInput.split(",");
+
+const flavorsArray = userInput.split(',');
 
 const flavorCount ={
     vanilla: 3,
@@ -8,7 +9,8 @@ const flavorCount ={
     coffee: 2
 };
 
-for (const flavors of flavorsArrary)
-{flavorCount[flavors] = (flavorCount[flavors]|| 0) + 1;}
-
+for (const flavor of flavorsArray)
+{flavorCount[flavor] = (flavorCount[flavor]|| 0) + 1;}
 console.table(flavorCount);
+}
+trackfroyoflavors();
